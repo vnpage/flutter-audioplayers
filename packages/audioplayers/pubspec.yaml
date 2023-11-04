@@ -11,22 +11,22 @@ flutter:
         default_package: audioplayers_android
       ios:
         default_package: audioplayers_darwin
-      linux:
-        default_package: audioplayers_linux
-      macos:
-        default_package: audioplayers_darwin
-      web:
-        default_package: audioplayers_web
-      windows:
-        default_package: audioplayers_windows
+      # linux:
+      #   default_package: audioplayers_linux
+      # macos:
+      #   default_package: audioplayers_darwin
+      # web:
+      #   default_package: audioplayers_web
+      # windows:
+      #   default_package: audioplayers_windows
 
 dependencies:
   audioplayers_android: ^4.0.2
-  audioplayers_darwin: ^5.0.2
-  audioplayers_linux: ^3.1.0
+  # audioplayers_darwin: ^5.0.2
+  # audioplayers_linux: ^3.1.0
   audioplayers_platform_interface: ^6.1.0
-  audioplayers_web: ^4.1.0
-  audioplayers_windows: ^3.1.0
+  # audioplayers_web: ^4.1.0
+  # audioplayers_windows: ^3.1.0
   file: '>=6.1.0 <8.0.0'
   flutter:
     sdk: flutter
